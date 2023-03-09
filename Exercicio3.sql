@@ -34,7 +34,9 @@ SELECT * FROM tb_alunos WHERE media_final > 7.0;
 
 SELECT * FROM tb_alunos WHERE media_final < 7.0;
 
-UPDATE tb_alunos SET numero = 60 WHERE id = 4;
+-- modificar dois campos ao mesmo tempo  
+UPDATE tb_alunos SET endereco = "Rua F", numero = 40 WHERE id = 4;
+
 
 
 
